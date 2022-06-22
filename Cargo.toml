@@ -1,0 +1,12 @@
+[package]
+name = "rust_chess"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# recommended: specify a known-working commit hash to pin to
+# (specify it in the URL, to make the patch tricks below work)
+bevy = "0.7"
+bevy_mod_picking = "0.6"
